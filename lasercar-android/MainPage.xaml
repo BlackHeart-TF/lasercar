@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lasercar.MainPage">
+
+    <VerticalStackLayout Spacing="25" Padding="30">
+        <Label Text="Host Name / IP:" FontSize="Medium"/>
+        <Entry x:Name="urlEntry" Placeholder="URL" Text="192.168.4.1"/>
+        <Button Text="Next" Clicked="OnNextClicked"/>
+    </VerticalStackLayout>
+
+</ContentPage>
